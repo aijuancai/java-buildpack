@@ -47,7 +47,7 @@ module JavaBuildpack
       #
       # @return [String] the contents as an environment variable
       def as_env_vars
-        self
+        join(' ')
       end
 
       private

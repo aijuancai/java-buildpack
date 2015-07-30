@@ -107,7 +107,7 @@ describe JavaBuildpack::Container::Groovy do
   end
 
   def env_vars_str
-    "#{env_vars.join(' ')}"
+    "#{environment_variables.join(' ')}"
   end
 
   def java_opts_str
